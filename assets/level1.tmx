@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="3">
- <tileset firstgid="1" name="tilesheet16x16" tilewidth="16" tileheight="16" spacing="2" margin="1" tilecount="2420" columns="20">
+ <tileset firstgid="1" name="tilesheet16x16" tilewidth="16" tileheight="16" spacing="2" margin="1" tilecount="1960" columns="20">
   <image source="tilesheet16x16fix.png" width="360" height="1764"/>
  </tileset>
  <layer id="7" name="ground" width="60" height="60" locked="1">
