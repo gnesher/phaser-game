@@ -1,16 +1,22 @@
 import "phaser";
+import { LoadScene } from "./scenes/load-scene";
 import { MainScene } from "./scenes/main-scene";
 declare const BUILD_TARGET: string;
 
 // main game configuration
 const config: GameConfig = {
-    width: 800,
-    height: 600,
     type: Phaser.AUTO,
     parent: "game",
-    scene: MainScene,
+    scene: [LoadScene, MainScene],
+    zoom: 2.5,
+    height: 320,
+    width: 400,
     physics: {
-        default: "arcade",
+        default: 'arcade',
+        arcade: {
+            debug: true,
+            gravity: { y: 0 }
+        }
     }
 };
 
